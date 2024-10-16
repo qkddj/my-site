@@ -1,0 +1,82 @@
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+html, body 
+{
+  height: 100%;
+}
+
+body
+{
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+li
+{
+  text-decoration: none;
+  text-decoration-line: none;
+  color: black;
+}
+
+li:hover 
+{
+  font-size: 100;
+  font-weight: bold;
+}
+
+.custom-hr 
+{
+  width: 100%; /* 폭을 50%로 설정 */
+  margin: 20px 0; /* 위아래 여백 */
+}
+
+#leftContainer
+{
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color :whitesmoke;
+}
+
+#profile, #table 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profile
+{
+  padding: 5%;
+}
+
+#table
+{
+  height: 100%;
+  justify-content: space-around;
+  font-size: 130%;
+}
+
+#rightContainer
+{
+  height: 100%;
+  flex: 4.5;
+  border: none;
+  display: none;
+}
+
+#videoContainer 
+{
+  height: 100%;
+  flex: 4.5;
+  display: block;
+}

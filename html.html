@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+  <title>조우렬</title>
+  <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="leftContainer">
+        <div id="profile">
+                <img src="사진/profile.png" style="border-radius: 30%;" width="200px"/>
+                <h2>나 조우렬 맞다</h2>
+                <h5>아닌가?...</h5>
+        </div>
+
+        <hr class="custom-hr">
+
+        <div style="height: 50%;">
+            <ul id="table">
+                <li onclick="video_v()">🏠 Home</li>
+                <li onclick="showImage('사진/School Life.png')">🏫 School Life</li>
+                <li onclick="showImage('사진/Chess.png')">🕹️ Chess</li>
+                <li onclick="showImage('사진/Food.png')">🏠 Food</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="rightContainer">
+        <img id="displayedImage" src="" height=100% width="100%">
+    </div>
+
+    <div id="videoContainer">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/A2nY4Rgm9vE"></iframe>
+    </div>
+
+</body>
+
+</html>
+
